@@ -12,15 +12,20 @@
 
 > Materiel  : Papier, stylo, pc, video proj
 
+
 L'objectif de cet atelier est de réaliser un formulaire en PHP. 
 Ce formulaire a pour but de faciliter la vie du formateur de la Code Académie. Dans le cadre de sa profession, le formateur doit réaliser des activités de formation telles que celle-ci. 
 
 Pour se faire, il a déjà réalisé une nomenclature claire par le biais d'un DTD.
 Mais jusqu'à maintenant, il n'a jamais pris la peine de mettre en place un outil lui permettant de créer le contenu par le biais d'un formulaire.
 
+> Pour le bon déroulement de cet exercice, il est attendu que les apprenants soient assis par nombre pair pour chaque table.
+> Les apprenants doivent ainsi commencer par définir leurs binômes
+
 ## Aide
- * Mettez des commentaires, votre code sera lu par vos voisins
- * Mettez des logs, ouvrez un terminal et suivez le fichier error.log ``` tail -f /var/log/nginx/error.log``` . Il y sera listé toutes vos erreurs ainsi que vos logs ```error_log```
+ * Mettez des commentaires, votre code sera lu par votre binome
+ * N'oubliez pas de mettre des logs ```error_log```, 
+ * Ouvrez un terminal et suivez le fichier error.log ``` tail -f /var/log/nginx/error.log``` . Il y sera listé toutes vos erreurs ainsi que vos logs.
  * N'oubliez pas de vous référer à la [doc PHP](http://php.net/manual/fr/)
 
 ## Exercice N°1
@@ -62,7 +67,7 @@ et  essayez de modeliser une Activite !
 Par table, mettez en commun vos modélisations et voyez s'il y a des différences. Si tel est le cas, définissez une structure commune. 
 L'objectif étant pour l'instant de se focaliser uniquement sur une activité (La partie root jusque Sequence est à ignorer ). 
 
-### Développementc
+### Développement (10h30 - 12h30 ++)
 Au sein d'un fichier PHP **form.php**, créez un formulaire qui permettra la saisie d'une activité. 
 Un bouton de validation sera présent et enverra les données à une autre page **exportToXML.php**. 
 
@@ -77,11 +82,12 @@ Faites en sorte que la structure générée respecte le [W3 Validator](https://v
 Implémentez la suite de root jusque Sequence.
 
 
-### Refactor du code (16h - 17)
-Par table, donnez votre modélisation à la personne située à votre droite.
-Remise en question de l'implémentation réalisée. 
- * Qu'en pensez-vous? 
- * Est-il possible d'améliorer le processus ? Si oui, comment ?
+### Evaluation par des pairs : Refactor du code (16h - 17h30)
+Par binomes de table, donnez votre modélisation à la personne située à votre droite.
+Ces derniers devront Remise en question de l'implémentation réalisée. 
+ * Qu'en pensez-vous? Serait-il possible de rendre ce code plus "propre" (indentation, commentaires, structure ...)
+ * Est-il possible d'améliorer les choix réalisés lors de l'implémentation de votre binôme ? Si oui, comment ? 
+ * Pensez-vous qu'il est possible de réaliser la même conversion en Javascript ? 
  
 
  
