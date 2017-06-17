@@ -16,11 +16,11 @@
 L'objectif de cet atelier est de réaliser un formulaire en PHP. 
 Ce formulaire a pour but de faciliter la vie du formateur de la Code Académie. Dans le cadre de sa profession, le formateur doit réaliser des activités de formation telles que celle-ci. 
 
-Pour se faire, il a déjà réalisé une nomenclature claire par le biais d'un DTD.
-Mais jusqu'à maintenant, il n'a jamais pris la peine de mettre en place un outil lui permettant de créer le contenu par le biais d'un formulaire.
+Pour se faire, il a déjà structuré ses données dans un fichier XML et réalisé une nomenclature claire par le biais d'un DTD.
+Mais jusqu'à maintenant, il n'a jamais pris la peine de mettre en place un outil lui permettant de créer le contenu plus facilement; par le biais d'un formulaire.
 
-> Pour le bon déroulement de cet exercice, il est attendu que les apprenants soient assis par nombre pair pour chaque table.
-> Les apprenants doivent ainsi commencer par définir leurs binômes
+> Pour le bon déroulement de cet exercice, il est attendu que les apprenants soient assis par nombre pair à chaque table.
+> Les apprenants doivent ainsi commencer par définir des binômes
 
 ## Aide
  * Mettez des commentaires, votre code sera lu par votre binome
@@ -31,7 +31,7 @@ Mais jusqu'à maintenant, il n'a jamais pris la peine de mettre en place un outi
 ## Exercice N°1
 
 ### Compréhension du besoin (9h - 9h30)
-Chercher sur internet durant 30min sur ce qu'est un DTD et sa relation avec un fichier XML
+Cherchez sur internet durant 30min sur ce qu'est un DTD et sa relation avec un fichier XML
 
  * [W3School DTD](https://www.w3schools.com/xml/xml_dtd_intro.asp)
  * [W3School XML](https://www.w3schools.com/xml/default.asp)
