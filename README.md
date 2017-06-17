@@ -1,8 +1,8 @@
 # PHP01 : Création d'un formulaire PHP et export XML
 
-> Objectif : Réaliser une formulaire PHP permettant un envoi vers une page externe
+> Objectif : Réaliser une formulaire PHP permettant un envoi vers une page externe. 
 
-> Sous-objectif : Permettre de pratiquer la création de formulaire, utile dans de nombreux sites.
+> Sous-objectif : Permettre de pratiquer la création de formulaire et traitement des données. Découverte de l'XML et DTD
 
 > PreRequis : WP00, HTML00
 
